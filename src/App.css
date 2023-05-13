@@ -26,6 +26,8 @@
   font-size: 50px;
   font-weight: bold;
   color: white;
+  text-align : left ;
+  display:inline-block;
 }
 
 .sub-text {
@@ -33,8 +35,16 @@
   color: white;
 }
 
+.subHeader {
+  color:white;
+  font-Size : 25px;
+  padding-right : 20px; 
+  padding-left : 20px;
+  display:inline-block;
+}
+
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background: -webkit-linear-gradient(left, #60c657 30%, #7149C6 60%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -54,7 +64,7 @@
 }
 
 .gradcircle {
-  font-size: 60px;
+  font-size: 100px;
   font-weight: bold;
   background:  -webkit-linear-gradient(left, #EA168E,#FF008E, #35aee2, #11CBD7);
   background-clip: text;
@@ -63,7 +73,7 @@
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background: -webkit-linear-gradient(left, #60c657,#AA77FF, #7149C6);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }

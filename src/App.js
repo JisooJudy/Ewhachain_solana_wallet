@@ -78,21 +78,23 @@ const App = () => {
     <div className="App">
 			<div className={walletAddress ? 'authed-container' : 'container'}>
         <div className="header-container">
-            <p classname ="header">
-              <img
-                src="/ewhachain.png"
-                alt="solana icon"
-                width={400}
-                height={55}
-              />
-              {'+++++'}
+            <div classname ="header">
+            <div className='subHeader'>˚₊✩‧*⋆⁺₊⋆ </div>
+                <img
+                  src="/ewhachain.png"
+                  alt="solana icon"
+                  width={270}
+                  height={40}
+                />
+              <div className='subHeader'>with</div>
               <img
                 src="/solanaLogo.png"
                 alt="solana icon"
-                width={300}
-                height={55}
+                width={200}
+                height={40}
               />
-            </p>
+            <div className='subHeader'>⋆₊⁺⋆*‧✩₊˚ </div>
+            </div>
           <p className="gradcircle">⛓ Welcome to Ewhachain ⛓</p>
           <p className="sub-text">
             ✨ Connect your Phantom wallet and view your GIF collection ✨
