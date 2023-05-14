@@ -6,9 +6,10 @@ import './App.css';
 const TWITTER_HANDLE = 'Ewhachain';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const TEST_GIFS = [
-	'https://i.giphy.com/media/eIG0HfouRQJQr1wBzz/giphy.webp',
-	'https://media3.giphy.com/media/L71a8LW2UrKwPaWNYM/giphy.gif?cid=ecf05e47rr9qizx2msjucl1xyvuu47d7kf25tqt2lvo024uo&rid=giphy.gif&ct=g',
-	'https://media4.giphy.com/media/AeFmQjHMtEySooOc8K/giphy.gif?cid=ecf05e47qdzhdma2y3ugn32lkgi972z9mpfzocjj6z1ro4ec&rid=giphy.gif&ct=g',
+	'https://media.tenor.com/lbEsggSJUOYAAAAd/solath-solana.gif',
+  'https://pbs.twimg.com/media/FlwQOXhaYAE9CpE?format=jpg&name=large',
+  'https://pbs.twimg.com/media/FvGpa9BaUAAQWjo.jpg',
+	'https://blog.flipsidecrypto.com/wp-content/uploads/2021/11/SolanaSpin_Notion_01-1.gif',
 ]
 
 const App = () => {
